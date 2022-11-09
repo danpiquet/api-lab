@@ -1,0 +1,35 @@
+Part 1
+Darth Vader’s Height
+https://swapi.dev/api/people/4/?height
+Alderaan Pop
+https://swapi.dev/api/planets/2/?population
+Millennium Falcon Manufacturer
+https://swapi.dev/api/starships/10/?manufacturer
+C-3PO Species
+https://swapi.dev/api/people/2/?species
+Obi-Wan’s films
+https://swapi.dev/api/people/10/?films
+Search Millennium Falcon
+https://swapi.dev/api/starships/?search=Millennium+Falcon
+Part 2
+POST accepts 1 parameter – text – stored as an object
+GET returns an array
+DELETE https://practiceapi.devmountain.com/api/555
+GET response codes: 200, 409 conflict
+POST 
+https://practiceapi.devmountain.com/api/posts
+Body
+{ “text”: “Dan Piquet”}
+PUT
+https://practiceapi.devmountain.com/api/posts/1348
+Body
+{ “text”: “Burnt Orange”}
+GET blue
+https://practiceapi.devmountain.com/api/posts/?search=blue
+https://practiceapi.devmountain.com/api/posts/?text=blue
+GET headers
+application/json; charset=utf-8
+PUT 409 code
+Your request is either missing an ID or text in the body
+GET with query
+I’m getting a 200. Can’t you run a query with get?
