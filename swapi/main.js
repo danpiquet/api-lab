@@ -3,7 +3,7 @@ let button = document.querySelector('#button')
 const buttonClick = async () => {
     let request = await axios.get('https://swapi.dev/api/planets/?search=Alderaan')
     let residents = request.data.results[0].residents
-    for(i=0;i<residents.length;i++){
+    for(let i=0;i<residents.length;i++){
         let body = document.querySelector('body')
         let resRequest = await axios.get(residents[i])
         let name = resRequest.data.name
